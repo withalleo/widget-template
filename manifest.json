@@ -1,0 +1,17 @@
+{
+	"name": "Hello World",
+	"author": "Alleo",
+	"authorUrl": "https://withalleo.com/",
+	"description": "A simple Hello World widget",
+	"iconUrl": "https://placehold.it/256x256",
+	"version": "<version_extracted_from_package.json>",
+	"width": 150,
+	"height": 40,
+	"entrypoints": [
+		{
+			"range": "^1.0.0",
+			"apiVersion": 1,
+			"entrypoint": "./index.html"
+		}
+	]
+}

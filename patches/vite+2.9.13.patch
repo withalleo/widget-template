@@ -1,0 +1,13 @@
+diff --git a/node_modules/vite/dist/node/chunks/dep-80fe9c6b.js b/node_modules/vite/dist/node/chunks/dep-80fe9c6b.js
+index 61d8e2c..8ced8ad 100644
+--- a/node_modules/vite/dist/node/chunks/dep-80fe9c6b.js
++++ b/node_modules/vite/dist/node/chunks/dep-80fe9c6b.js
+@@ -38321,7 +38321,7 @@ function preload(baseModule, deps) {
+ function buildImportAnalysisPlugin(config) {
+     const ssr = !!config.build.ssr;
+     const isWorker = config.isWorker;
+-    const insertPreload = !(ssr || !!config.build.lib || isWorker);
++    const insertPreload = false;
+     const scriptRel = config.build.polyfillModulePreload
+         ? `'modulepreload'`
+         : `(${detectScriptRel.toString()})()`;
