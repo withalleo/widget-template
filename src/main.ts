@@ -23,7 +23,7 @@ import {
 const defaultSharedVariables = {
     'text' : <string>(DeploymentSettingsHelper.settings?.defaultValue ?? 'Hello Alleo!'),
     'number' : <number>0,
-    'color' : <string>(DeploymentSettingsHelper.settings?.defaultColor ?? DefaultColors.text),
+    'color' : <string>DefaultColors.text,
     'backgroundColor' : <string>DefaultColors.background
 }
 
