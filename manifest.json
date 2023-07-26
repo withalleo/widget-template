@@ -6,7 +6,7 @@
 	"iconUrl": "https://placehold.it/256x256",
 	"version": "<version_extracted_from_package.json>",
 	"width": 150,
-	"height": 40,
+	"height": 80,
 	"entrypoints": [
 		{
 			"range": "^1.0.0",

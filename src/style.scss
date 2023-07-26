@@ -1,9 +1,16 @@
-.widget-container.hello-world {
+.widget-container
+{
+     --widget-background-color: black;
+    // --widget-color: white;
     --widget-color: white;
+    background-color: var(--widget-background-color);
 
-    background: transparent;
-    color: var(--widget-color);
-    font-size: 32px;
-    line-height: 40px;
-    white-space: nowrap;
+    .hello-world, .hello-roll {
+        background-color: var(--widget-background-color);
+        // background: transparent;
+        color: var(--widget-color);
+        font-size: 32px;
+        line-height: 40px;
+        white-space: nowrap;
+    }
 }
